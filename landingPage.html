@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Piedra&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <style>
+      * {
+        font-family: "Montserrat", sans-serif;
+      }
+      @media (min-width: 768px) {
+        html {
+          font-size: 16px;
+        }
+      }
+
+      .container {
+        max-width: 960px;
+      }
+
+      .card-deck .card {
+        min-width: 220px;
+      }
+      .main-pic-div {
+        /*  */
+        height: 100vh;
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.315),
+            rgba(0, 0, 0, 0.363)
+          ),
+          url(runChild.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+      }
+      .navbar-dark .navbar-nav .nav-link {
+        color: rgb(255, 255, 255);
+      }
+      .navbar-brand .nav-logo {
+        height: 70px;
+        width: auto;
+      }
+      .jumbotron {
+        background-color: transparent;
+      }
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+      @media (max-width: 768px) {
+        .container h1 {
+          font-size: 3.21rem;
+        }
+        .btn-lg {
+          padding: 2px 6px;
+          font-size: 1.2rem;
+        }
+        .container p {
+          font-size: 1rem;
+        }
+      }
+      .container h1 {
+        font-weight: 700;
+      }
+      .welcome-div {
+        margin-top: 100px;
+        color: #fff;
+      }
+      section {
+        margin-top: 50px;
+      }
+      .container h2 {
+        text-align: center;
+        padding-bottom: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-pic-div">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#"
+          ><span><img class="nav-logo" src="newlogo.png" alt="" /></span
+        ></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Our Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact us</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Our Story</a>
+                <a class="dropdown-item" href="#">Novality</a>
+                <a class="dropdown-item" href="#">Why Us!</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input
+              class="form-control mr-sm-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+              Sign up
+            </button>
+          </form>
+        </div>
+      </nav>
+      <main role="main">
+        <!-- Main jumbotron for a primary marketing message or call to action -->
+        <div class="jumbotron welcome-div">
+          <div class="container">
+            <h1 class="display-3">ENTIRETY</h1>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat,
+              aliquid sit soluta molestiae officia fugiat quis quas enim.
+              Tenetur ipsam totam quibusdam excepturi lorem23
+            </p>
+            <p>
+              <a class="btn btn-primary btn-lg" href="#" role="button"
+                >Get a Free Demo »</a
+              >
+            </p>
+          </div>
+        </div>
+        <!-- /container -->
+      </main>
+    </div>
+
+    <section>
+      <div class="container">
+        <h2>Pricing</h2>
+        <div class="card-deck mb-3 text-center">
+          <div class="card mb-4 shadow-sm">
+            <div class="card-header">
+              <h4 class="my-0 font-weight-normal">Basic</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">
+                $x <small class="text-muted">/ mo</small>
+              </h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>Point 1</li>
+                <li>Point 2</li>
+                <li>Point 3</li>
+                <li>Point 4</li>
+              </ul>
+              <button
+                type="button"
+                class="btn btn-lg btn-block btn-outline-primary"
+              >
+                Sign up for free
+              </button>
+            </div>
+          </div>
+          <div class="card mb-4 shadow-sm">
+            <div class="card-header">
+              <h4 class="my-0 font-weight-normal">Pro</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">
+                $y <small class="text-muted">/ mo</small>
+              </h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>Point 1</li>
+                <li>Point 2</li>
+                <li>Point 3</li>
+                <li>Point 4</li>
+              </ul>
+              <button type="button" class="btn btn-lg btn-block btn-primary">
+                Get started
+              </button>
+            </div>
+          </div>
+          <div class="card mb-4 shadow-sm">
+            <div class="card-header">
+              <h4 class="my-0 font-weight-normal">Enterprise</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">
+                $z <small class="text-muted">/ mo</small>
+              </h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>Point 1</li>
+                <li>Point 2</li>
+                <li>Point 3</li>
+                <li>Point 4</li>
+              </ul>
+              <button type="button" class="btn btn-lg btn-block btn-primary">
+                Contact us
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
